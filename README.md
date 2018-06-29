@@ -32,6 +32,11 @@ Verify Docker image runs
 The mongodb url can contain credentials which can be seen by other users on the system when passed in as command line flag.
 To pass in the mongodb url securely, you can set the MONGODB_URL environment variable instead.
 
+## Using DockerHub Image
+I have created an automated DockerHub build based on the project from dcu/mongodb_exporter
+
+docker run --restart unless-stopped tiagoreichert/mongodb_exporter -h
+
 ## Available groups of data
 
 Name     | Description
