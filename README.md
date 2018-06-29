@@ -35,7 +35,9 @@ To pass in the mongodb url securely, you can set the MONGODB_URL environment var
 ## Using DockerHub Image
 I have created an automated DockerHub build based on the project from dcu/mongodb_exporter
 
-docker run --restart unless-stopped tiagoreichert/mongodb_exporter -h
+```console
+    docker run --restart unless-stopped tiagoreichert/mongodb_exporter -h
+```
 
 ## Available groups of data
 
